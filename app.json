@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "time-pomodoro",
+    "name": "time pomodoro",
     "slug": "time-pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,29 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#cae3e8"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/icon.png"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundImage": "./assets/background.png"
+      },
+      "package": "com.padermo.timepomodoro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "285af925-68a5-45c5-a69a-32ecdd31d227"
+      }
     }
   }
 }
